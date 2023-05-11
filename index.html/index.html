@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href=style.css>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-C5Zjgji8m+CvQ5c6vkQb5gEadU4PX0Vj/FlZsudG1iMsvIvdTtPTPvr1m2uOrk/6LmwxQ9WtkVbzirT0n7zL6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--link above is supposed to take me to Font Awesome, but is not loading the icons, what am I doing wrong?-->
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="login-container">
+    <h1>Login</h1>
+    <div class="input-container">
+      <i class="fas fa-user"></i><!--icon is not showing???-->
+      <input type="text" placeholder="Username" maxlength="18">
+    </div>
+    <div class="input-container">
+      <i class="far fa-eye-slash"></i> <!--icon is not showing???-->
+      <input type="password" id="password-input" placeholder="Password" maxlength="18">
+      <i class="fas fa-eye-slash" id="password-toggle"></i>
+    </div>
+    <button type="submit">Sign In</button>
+    <a href="www.msn.com"> <br> Forgot password?</a>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
